@@ -1,0 +1,23 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+#map {
+    width: 90vw;
+    height: 90vh;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.mapboxgl-popup-content {
+    background-color: beige !important;
+}
+
+.mapboxgl-popup-close-button {
+    font-size: 25px;
+}
